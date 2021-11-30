@@ -1,5 +1,5 @@
 // 修改为服务器IP地址
-const baseURL = "http://192.168.0.105:3000"
+const baseURL = "http://192.168.0.107:3000"
 export const request = ({
 	url,
 	method,
