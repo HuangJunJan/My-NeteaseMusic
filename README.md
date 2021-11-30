@@ -1,18 +1,28 @@
+# My-NeteaseMusic
+一个基于uniapp+uviewUI的在线听歌移动端H5和小程序应用。
+>>>>>>> 132f762a0e49190494904f55cd3848351edaf1a9
+
 ## 前置准备
+
 1.需要在本地开启网易云接口服务，接口服务在我另一个仓库[Api](https://github.com/Hay-J/NeteaseCloudMusicApi-Clone4.0.23.git)，服务开启后，就不用管了；
 2.修改utils/request.js下的baseUrl为本地ip地址，例如："http://192.168.0.105:3000"，注：这里不用localhost是因为在小程序端实机调试时会获取不到数据，且实机调试时手机和电脑网络需要在同一局域网下
 
 ## 安装
+
 ```
 $ git clone https://github.com/Hay-J/My-NeteaseMusic.git
 $ npm install
 ```
+
 ## 运行
+
 ```
 1.在Hbuilder打开工程文件，点击“运行到浏览器”或者是“小程序模拟器”
 2.在浏览器访问http://localhost:8081/，注意网页需要打开调试模式切换为移动设备
 ```
+
 ## 项目预览
+
 1. <img src="README.assets/image-20211130152154539.png" alt="首页" style="zoom:50%;" />
 
 首页这里有骨架屏加载动效（只在首页加了，其他页面加可以参考uview），为了体现效果延时了0.5s，可在pages/index下修改
